@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "lineLength": 100,
+  "indentation": {
+    "spaces": 2
+  },
+  "tabWidth": 2,
+  "maximumBlankLines": 1,
+  "indentBlankLines": false,
+  "spacesBeforeEndOfLineComments": 2,
+  "respectsExistingLineBreaks": true,
+  "lineBreakBeforeEachArgument": true,
+  "lineBreakBeforeEachGenericRequirement": true,
+  "lineBreakBeforeControlFlowKeywords": false,
+  "lineBreakBetweenDeclarationAttributes": false,
+  "lineBreakAroundMultilineExpressionChainComponents": false,
+  "prioritizeKeepingFunctionOutputTogether": true,
+  "indentSwitchCaseLabels": false,
+  "indentConditionalCompilationBlocks": true,
+  "spacesAroundRangeFormationOperators": false,
+  "multiElementCollectionTrailingCommas": true,
+  "reflowMultilineStringLiterals": "never",
+  "fileScopedDeclarationPrivacy": {
+    "accessLevel": "private"
+  },
+  "noAssignmentInExpressions": {
+    "allowedFunctions": [
+      "XCTAssertNoThrow"
+    ]
+  },
+  "rules": {
+    "DoNotUseSemicolons": true,
+    "UseShorthandTypeNames": true,
+    "UseLetInEveryBoundCaseVariable": true,
+    "NoAccessLevelOnExtensionDeclaration": true,
+    "OrderedImports": true,
+    "NoParensAroundConditions": true,
+    "NoEmptyTrailingClosureParentheses": true,
+    "NoVoidReturnOnFunctionSignature": true,
+    "ReturnVoidInsteadOfEmptyTuple": true,
+    "OneCasePerLine": true,
+    "OneVariableDeclarationPerLine": true,
+    "NoCasesWithOnlyFallthrough": true,
+    "NoLabelsInCasePatterns": true,
+    "UseSingleLinePropertyGetter": true,
+    "UseTripleSlashForDocumentationComments": true,
+    "TypeNamesShouldBeCapitalized": true,
+    "AlwaysUseLowerCamelCase": true,
+    "AlwaysUseLiteralForEmptyCollectionInit": true,
+    "GroupNumericLiterals": true,
+    "FullyIndirectEnum": true,
+    "NoEmptyLinesOpeningClosingBraces": true,
+    "OmitExplicitReturns": false,
+    "UseEarlyExits": false,
+    "NeverForceUnwrap": false,
+    "NeverUseForceTry": false,
+    "NeverUseImplicitlyUnwrappedOptionals": false,
+    "AllPublicDeclarationsHaveDocumentation": false,
+    "NoLeadingUnderscores": false,
+    "ValidateDocumentationComments": false,
+    "BeginDocumentationCommentWithOneLineSummary": false
+  }
+}
